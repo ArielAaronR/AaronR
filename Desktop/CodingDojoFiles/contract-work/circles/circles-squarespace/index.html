@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="main" class="container-fluid p-0">
+      <!-- Preloader -->
+      <div id="preloader">
+        <div class="preloader-container">
+          <div class="white-circle">
+            <svg
+              id="Layer_1"
+              data-name="Layer 1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 432 504"
+            >
+              <defs>
+                <style>
+                  .cls-0 {
+                    fill: #fff;
+                  }
+                </style>
+              </defs>
+              <path
+                class="cls-0"
+                d="M216,353.68c-79.65,0-144.45-64.8-144.45-144.44S136.35,64.78,216,64.78s144.45,64.81,144.45,144.46S295.65,353.68,216,353.68M216,74C141.44,74,80.77,134.67,80.77,209.24S141.44,344.46,216,344.46s135.23-60.67,135.23-135.22S290.56,74,216,74"
+              />
+              <path
+                class="cls-0"
+                d="M315.65,209.23A99.65,99.65,0,1,1,216,109.59a99.65,99.65,0,0,1,99.65,99.64"
+              />
+              <path
+                class="cls-0"
+                d="M216,313.49A104.26,104.26,0,1,1,320.26,209.24,104.37,104.37,0,0,1,216,313.49m0-199.29a95,95,0,1,0,95,95,95.15,95.15,0,0,0-95-95"
+              />
+              <path
+                class="cls-0"
+                d="M216,400.8c-105.63,0-191.57-85.94-191.57-191.56S110.37,17.67,216,17.67s191.57,85.94,191.57,191.57S321.63,400.8,216,400.8m0-373.9c-100.54,0-182.34,81.8-182.34,182.34S115.46,391.57,216,391.57s182.34-81.79,182.34-182.33S316.55,26.9,216,26.9"
+              />
+              <path
+                class="cls-0"
+                d="M71.67,464c0-13.38,10.17-22.46,22.16-22.46,12.9,0,18.59,8.29,20,14.47l-9,2.85c-.66-3-3.39-8-11-8C88.08,450.9,81.6,455,81.6,464c0,8.06,5.94,12.72,12.35,12.72,7.45,0,10.42-5,11.27-8.05l9.14,2.6c-1.39,5.94-7.08,15-20.41,15-12.35,0-22.28-8.9-22.28-22.29"
+              />
+              <rect
+                class="cls-0"
+                x="126.95"
+                y="442.49"
+                width="9.69"
+                height="42.93"
+              />
+              <path
+                class="cls-0"
+                d="M164.92,469.43h-3.39v16H152V442.49h17c8.47,0,13.93,5.81,13.92,13.44A12.32,12.32,0,0,1,174.43,468l8.72,17.38H172.61Zm2.24-8.23c3.94,0,6.06-2.18,6.06-5.21,0-3.21-2.12-5.21-6.06-5.21h-5.63V461.2Z"
+              />
+              <path
+                class="cls-0"
+                d="M193.25,464.05c0-13.39,10.18-22.47,22.17-22.47,12.9,0,18.59,8.3,20,14.47l-9,2.85c-.67-3-3.39-8-11-8-5.75,0-12.23,4.12-12.23,13.15,0,8.05,5.93,12.71,12.35,12.71,7.45,0,10.42-5,11.26-8.05l9.15,2.6c-1.39,5.94-7.09,15-20.41,15-12.35,0-22.29-8.9-22.29-22.28"
+              />
+              <polygon
+                class="cls-0"
+                points="248.54 485.42 248.54 442.49 258.11 442.49 258.11 476.28 276.63 476.28 276.63 485.42 248.54 485.42"
+              />
+              <polygon
+                class="cls-0"
+                points="288.87 485.42 288.87 442.49 316.06 442.49 316.06 451.51 298.43 451.51 298.43 459.69 314.42 459.69 314.42 468.1 298.43 468.1 298.43 476.34 316.12 476.34 316.12 485.42 288.87 485.42"
+              />
+              <path
+                class="cls-0"
+                d="M351.17,455.45c-.3-2-1.93-5.39-7.14-5.39-3.57,0-5.88,2.24-5.88,4.6,0,2.06,1.28,3.57,4.24,4.12l5.76,1.09c8.17,1.51,12.41,6.78,12.41,12.89,0,6.73-5.63,13.57-15.87,13.57-11.86,0-16.95-7.69-17.56-13.75l8.78-2.11c.37,3.93,3,7.38,8.91,7.38,3.75,0,6.05-1.82,6.05-4.48,0-2.18-1.75-3.75-4.6-4.3L340.39,468c-7.26-1.39-11.68-6.24-11.68-12.59,0-8.12,7.14-13.81,15.38-13.81,10.72,0,14.77,6.42,15.68,11.44Z"
+              />
+            </svg>
+          </div>
+          <div class="circles">
+            <div class="circles-content">
+              <div class="flex-child preloader-circles">
+                {# purple circle }
+                <svg
+                  id="Layer_3"
+                  data-name="Layer 3"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 432 504"
+                >
+                  <defs>
+                    <style>
+                      .cls-3 {
+                        fill: #5f249f;
+                      }
+                    </style>
+                  </defs>
+                  <path
+                    class="cls-3"
+                    d="M216,396.45c-79.65,0-144.45-64.8-144.45-144.45S136.35,107.55,216,107.55,360.45,172.35,360.45,252,295.65,396.45,216,396.45m0-279.67c-74.56,0-135.23,60.66-135.23,135.22S141.44,387.22,216,387.22,351.23,326.56,351.23,252,290.56,116.78,216,116.78"
+                  />
+                  <path
+                    class="cls-3"
+                    d="M315.65,252A99.65,99.65,0,1,1,216,152.35,99.66,99.66,0,0,1,315.65,252"
+                  />
+                  <path
+                    class="cls-3"
+                    d="M216,356.25A104.26,104.26,0,1,1,320.26,252,104.37,104.37,0,0,1,216,356.25M216,157a95,95,0,1,0,95,95,95.14,95.14,0,0,0-95-95"
+                  />
+                  <path
+                    class="cls-3"
+                    d="M216,443.56C110.37,443.56,24.43,357.63,24.43,252S110.37,60.44,216,60.44,407.57,146.38,407.57,252,321.63,443.56,216,443.56m0-373.9C115.46,69.66,33.66,151.46,33.66,252S115.46,434.34,216,434.34,398.34,352.54,398.34,252,316.55,69.66,216,69.66"
+                  />
+                </svg>
+                {# green circle }
+                <svg
+                  id="Layer_4"
+                  data-name="Layer 4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 432 504"
+                >
+                  <defs>
+                    <style>
+                      .cls-4 {
+                        fill: #4fb756;
+                      }
+                    </style>
+                  </defs>
+                  <path
+                    class="cls-4"
+                    d="M216,396.45c-79.65,0-144.45-64.8-144.45-144.45S136.35,107.55,216,107.55,360.45,172.35,360.45,252,295.65,396.45,216,396.45m0-279.67c-74.56,0-135.23,60.66-135.23,135.22S141.44,387.22,216,387.22,351.23,326.56,351.23,252,290.56,116.78,216,116.78"
+                  />
+                  <path
+                    class="cls-4"
+                    d="M315.65,252A99.65,99.65,0,1,1,216,152.35,99.66,99.66,0,0,1,315.65,252"
+                  />
+                  <path
+                    class="cls-4"
+                    d="M216,356.25A104.26,104.26,0,1,1,320.26,252,104.37,104.37,0,0,1,216,356.25M216,157a95,95,0,1,0,95,95,95.14,95.14,0,0,0-95-95"
+                  />
+                  <path
+                    class="cls-4"
+                    d="M216,443.56C110.37,443.56,24.43,357.63,24.43,252S110.37,60.44,216,60.44,407.57,146.38,407.57,252,321.63,443.56,216,443.56m0-373.9C115.46,69.66,33.66,151.46,33.66,252S115.46,434.34,216,434.34,398.34,352.54,398.34,252,316.55,69.66,216,69.66"
+                  />
+                </svg>
+                {# orange circle }
+                <svg
+                  id="Layer_5"
+                  data-name="Layer 5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 432 504"
+                >
+                  <defs>
+                    <style>
+                      .cls-5 {
+                        fill: #ff6900;
+                      }
+                    </style>
+                  </defs>
+                  <path
+                    class="cls-5"
+                    d="M216,396.45c-79.65,0-144.45-64.8-144.45-144.45S136.35,107.55,216,107.55,360.45,172.35,360.45,252,295.65,396.45,216,396.45m0-279.67c-74.56,0-135.23,60.66-135.23,135.22S141.44,387.22,216,387.22,351.23,326.56,351.23,252,290.56,116.78,216,116.78"
+                  />
+                  <path
+                    class="cls-5"
+                    d="M315.65,252A99.65,99.65,0,1,1,216,152.35,99.66,99.66,0,0,1,315.65,252"
+                  />
+                  <path
+                    class="cls-5"
+                    d="M216,356.25A104.26,104.26,0,1,1,320.26,252,104.37,104.37,0,0,1,216,356.25M216,157a95,95,0,1,0,95,95,95.14,95.14,0,0,0-95-95"
+                  />
+                  <path
+                    class="cls-5"
+                    d="M216,443.56C110.37,443.56,24.43,357.63,24.43,252S110.37,60.44,216,60.44,407.57,146.38,407.57,252,321.63,443.56,216,443.56m0-373.9C115.46,69.66,33.66,151.46,33.66,252S115.46,434.34,216,434.34,398.34,352.54,398.34,252,316.55,69.66,216,69.66"
+                  />
+                </svg>
+              </div>
+              <div class="flex-child preloader-words">
+                <h1>CONNECT</h1>
+                <h1>GROW</h1>
+                <h1>CREATE</h1>
+              </div>
+              {#
+              <div class="purple-circle">
+                <h1>CONNECT</h1>
+              </div>
+              <div class="green-circle">
+                <h1>GROW</h1>
+              </div>
+              <div class="orange-circle">
+                <h1>CREATE</h1>
+              </div>
+              }
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End preloader -->
+
+      <!-- div used as a holder for the carousel -->
+      <section>
+        <div class="star-bg">
+          <div class="rellax" data-rellax-zindex="1">
+            <img
+              data-rellax-zindex="1"
+              data-rellax-speed="1"
+              class="rellax stars-bg-1"
+              src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f08dfddfb06924300ddfb82/1594417118363/star-bg-1.png"
+              alt=""
+            />
+            <img
+              data-rellax-zindex="1"
+              data-rellax-speed="5"
+              class="rellax stars-bg-2"
+              src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f08dfe3f85e0f703310cb9c/1594417124415/star-bg-2.png"
+              alt=""
+            />
+            <img
+              data-rellax-zindex="1"
+              data-rellax-speed="4"
+              class="rellax stars-bg-3"
+              src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f08dfe8f85e0f703310cc21/1594417129794/star-bg-3.png"
+              alt=""
+            />
+          </div>
+          <div class="circles-logo">
+            <svg
+              id="Layer_1"
+              data-name="Layer 1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 432 504"
+            >
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: #fff;
+                  }
+                </style>
+              </defs>
+              <path
+                class="cls-1"
+                d="M216,353.68c-79.65,0-144.45-64.8-144.45-144.44S136.35,64.78,216,64.78s144.45,64.81,144.45,144.46S295.65,353.68,216,353.68M216,74C141.44,74,80.77,134.67,80.77,209.24S141.44,344.46,216,344.46s135.23-60.67,135.23-135.22S290.56,74,216,74"
+              />
+              <path
+                class="cls-1"
+                d="M315.65,209.23A99.65,99.65,0,1,1,216,109.59a99.65,99.65,0,0,1,99.65,99.64"
+              />
+              <path
+                class="cls-1"
+                d="M216,313.49A104.26,104.26,0,1,1,320.26,209.24,104.37,104.37,0,0,1,216,313.49m0-199.29a95,95,0,1,0,95,95,95.15,95.15,0,0,0-95-95"
+              />
+              <path
+                class="cls-1"
+                d="M216,400.8c-105.63,0-191.57-85.94-191.57-191.56S110.37,17.67,216,17.67s191.57,85.94,191.57,191.57S321.63,400.8,216,400.8m0-373.9c-100.54,0-182.34,81.8-182.34,182.34S115.46,391.57,216,391.57s182.34-81.79,182.34-182.33S316.55,26.9,216,26.9"
+              />
+              <path
+                class="cls-1"
+                d="M71.67,464c0-13.38,10.17-22.46,22.16-22.46,12.9,0,18.59,8.29,20,14.47l-9,2.85c-.66-3-3.39-8-11-8C88.08,450.9,81.6,455,81.6,464c0,8.06,5.94,12.72,12.35,12.72,7.45,0,10.42-5,11.27-8.05l9.14,2.6c-1.39,5.94-7.08,15-20.41,15-12.35,0-22.28-8.9-22.28-22.29"
+              />
+              <rect
+                class="cls-1"
+                x="126.95"
+                y="442.49"
+                width="9.69"
+                height="42.93"
+              />
+              <path
+                class="cls-1"
+                d="M164.92,469.43h-3.39v16H152V442.49h17c8.47,0,13.93,5.81,13.92,13.44A12.32,12.32,0,0,1,174.43,468l8.72,17.38H172.61Zm2.24-8.23c3.94,0,6.06-2.18,6.06-5.21,0-3.21-2.12-5.21-6.06-5.21h-5.63V461.2Z"
+              />
+              <path
+                class="cls-1"
+                d="M193.25,464.05c0-13.39,10.18-22.47,22.17-22.47,12.9,0,18.59,8.3,20,14.47l-9,2.85c-.67-3-3.39-8-11-8-5.75,0-12.23,4.12-12.23,13.15,0,8.05,5.93,12.71,12.35,12.71,7.45,0,10.42-5,11.26-8.05l9.15,2.6c-1.39,5.94-7.09,15-20.41,15-12.35,0-22.29-8.9-22.29-22.28"
+              />
+              <polygon
+                class="cls-1"
+                points="248.54 485.42 248.54 442.49 258.11 442.49 258.11 476.28 276.63 476.28 276.63 485.42 248.54 485.42"
+              />
+              <polygon
+                class="cls-1"
+                points="288.87 485.42 288.87 442.49 316.06 442.49 316.06 451.51 298.43 451.51 298.43 459.69 314.42 459.69 314.42 468.1 298.43 468.1 298.43 476.34 316.12 476.34 316.12 485.42 288.87 485.42"
+              />
+              <path
+                class="cls-1"
+                d="M351.17,455.45c-.3-2-1.93-5.39-7.14-5.39-3.57,0-5.88,2.24-5.88,4.6,0,2.06,1.28,3.57,4.24,4.12l5.76,1.09c8.17,1.51,12.41,6.78,12.41,12.89,0,6.73-5.63,13.57-15.87,13.57-11.86,0-16.95-7.69-17.56-13.75l8.78-2.11c.37,3.93,3,7.38,8.91,7.38,3.75,0,6.05-1.82,6.05-4.48,0-2.18-1.75-3.75-4.6-4.3L340.39,468c-7.26-1.39-11.68-6.24-11.68-12.59,0-8.12,7.14-13.81,15.38-13.81,10.72,0,14.77,6.42,15.68,11.44Z"
+              />
+            </svg>
+          </div>
+          <p class="largeLabel">
+            <a class="largeLabelLink" href="#product-details-list"> Link </a>
+          </p>
+          <p class="largeLabel">
+            <a class="largeLabelLink2" href="#product-details-list"> Link2 </a>
+          </p>
+          <p class="largeLabel">
+            <a class="largeLabelLink3" href="#product-details-list"> Link 3</a>
+          </p>
+          <p class="largeLabel">
+            <a class="largeLabelLink4" href="#product-details-list"> Link 4</a>
+          </p>
+          <div id="myDiv">
+            <a href="#product-details-list" class="click_to_scroll">
+              <div id="circle">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 651.22 651.23"
+                >
+                  <defs>
+                    <style>
+                      .cls-1,
+                      .cls-2 {
+                        font-size: 44.29px;
+                        fill: #fff;
+                      }
+                      .cls-1 {
+                        font-family: Avenir-Black, Avenir;
+                        font-weight: 800;
+                      }
+                      .cls-2 {
+                        font-family: Avenir-Medium, Avenir;
+                        font-weight: 500;
+                      }
+                    </style>
+                  </defs>
+                  <g id="Layer_2" data-name="Layer 2">
+                    <g id="product_carousel" data-name="product carousel">
+                      <text
+                        class="cls-1"
+                        transform="translate(135.66 189.24) rotate(-50.94)"
+                      >
+                        E
+                      </text>
+                      <text
+                        class="cls-1"
+                        transform="translate(152.79 167.88) rotate(-43.75)"
+                      >
+                        X
+                      </text>
+                      <text
+                        class="cls-1"
+                        transform="translate(175.57 146.19) rotate(-36.51)"
+                      >
+                        P
+                      </text>
+                      <text
+                        class="cls-1"
+                        transform="translate(194.82 131.51) rotate(-29.93)"
+                      >
+                        A
+                      </text>
+                      <text
+                        class="cls-1"
+                        transform="matrix(0.93, -0.37, 0.37, 0.93, 222.62, 115.31)"
+                      >
+                        N
+                      </text>
+                      <text
+                        class="cls-1"
+                        transform="translate(255.62 102.53) rotate(-14.02)"
+                      >
+                        D
+                      </text>
+                      <text
+                        class="cls-1"
+                        transform="translate(288.08 95.13) rotate(-7.71)"
+                      ></text>
+                      <text
+                        class="cls-1"
+                        transform="translate(300.79 93.05) rotate(-2.64)"
+                      >
+                        Y
+                      </text>
+                      <text
+                        class="cls-1"
+                        transform="translate(328.86 91.43) rotate(5.3)"
+                      >
+                        O
+                      </text>
+                      <text
+                        class="cls-1"
+                        transform="matrix(0.97, 0.24, -0.24, 0.97, 364.88, 94.88)"
+                      >
+                        U
+                      </text>
+                      <text
+                        class="cls-1"
+                        transform="translate(396.19 102.63) rotate(21.13)"
+                      >
+                        R
+                      </text>
+                      <text
+                        class="cls-1"
+                        transform="matrix(0.9, 0.44, -0.44, 0.9, 422.6, 113.19)"
+                      ></text>
+                      <text
+                        class="cls-1"
+                        transform="translate(434.3 118.49) rotate(31.41)"
+                      >
+                        C
+                      </text>
+                      <text
+                        class="cls-1"
+                        transform="matrix(0.8, 0.6, -0.6, 0.8, 459.73, 134.47)"
+                      >
+                        I
+                      </text>
+                      <text
+                        class="cls-1"
+                        transform="translate(470.28 141.87) rotate(41.68)"
+                      >
+                        R
+                      </text>
+                      <text
+                        class="cls-1"
+                        transform="translate(491.4 160.57) rotate(48.8)"
+                      >
+                        C
+                      </text>
+                      <text
+                        class="cls-1"
+                        transform="matrix(0.57, 0.82, -0.82, 0.57, 510.96, 183.15)"
+                      >
+                        L
+                      </text>
+                      <text
+                        class="cls-1"
+                        transform="translate(524.36 202.3) rotate(61.64)"
+                      >
+                        E
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(537.21 226.79) rotate(66.54)"
+                      ></text>
+                      <text
+                        class="cls-2"
+                        transform="translate(542.32 237.76) rotate(71.32)"
+                      >
+                        E
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(550.9 262.94) rotate(77.95)"
+                      >
+                        X
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(556.76 290.6) rotate(84.54)"
+                      >
+                        P
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(559.25 313.06) rotate(90.7)"
+                      >
+                        A
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(559.06 343.62) rotate(98.75)"
+                      >
+                        N
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(553.75 377.85) rotate(106.97)"
+                      >
+                        D
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="matrix(-0.38, 0.92, -0.92, -0.38, 543.81, 408.78)"
+                      ></text>
+                      <text
+                        class="cls-2"
+                        transform="translate(539.49 420.09) rotate(117.18)"
+                      >
+                        Y
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(527.68 443.87) rotate(124.83)"
+                      >
+                        O
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="matrix(-0.68, 0.73, -0.73, -0.68, 506.86, 473.52)"
+                      >
+                        U
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="matrix(-0.77, 0.64, -0.64, -0.77, 485.88, 495.89)"
+                      >
+                        R
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="matrix(-0.82, 0.58, -0.58, -0.82, 465.14, 512.91)"
+                      ></text>
+                      <text
+                        class="cls-2"
+                        transform="matrix(-0.87, 0.5, -0.5, -0.87, 455.56, 520.22)"
+                      >
+                        C
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(428.59 535.23) rotate(155.4)"
+                      >
+                        I
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(417.73 540.55) rotate(160.19)"
+                      >
+                        R
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(392.78 549.89) rotate(167.84)"
+                      >
+                        C
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(362.76 556.35) rotate(173.6)"
+                      >
+                        L
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(340.31 558.99) rotate(179.66)"
+                      >
+                        E
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(313.47 558.85) rotate(-175.53)"
+                      ></text>
+                      <text
+                        class="cls-2"
+                        transform="translate(301.4 558.23) rotate(-170.72)"
+                      >
+                        E
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(275.15 554.01) rotate(-163.97)"
+                      >
+                        X
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(248 546.17) rotate(-157.35)"
+                      >
+                        P
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(227 537.76) rotate(-151.23)"
+                      >
+                        A
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(200.1 523.2) rotate(-143.29)"
+                      >
+                        N
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(172.37 502.47) rotate(-135.13)"
+                      >
+                        D
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="matrix(-0.64, -0.77, 0.77, -0.64, 149.68, 479.21)"
+                      ></text>
+                      <text
+                        class="cls-2"
+                        transform="matrix(-0.57, -0.82, 0.82, -0.57, 141.72, 470.11)"
+                      >
+                        Y
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(126.24 448.51) rotate(-117.1)"
+                      >
+                        O
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(109.9 416.23) rotate(-108.9)"
+                      >
+                        U
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(100.05 387.17) rotate(-101.97)"
+                      >
+                        R
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="matrix(-0.13, -0.99, 0.99, -0.13, 94.77, 360.85)"
+                      ></text>
+                      <text
+                        class="cls-2"
+                        transform="translate(92.82 348.97) rotate(-91.97)"
+                      >
+                        C
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(92.18 318.1) rotate(-86.67)"
+                      >
+                        I
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="matrix(0.14, -0.99, 0.99, 0.14, 92.56, 305.99)"
+                      >
+                        R
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(96.17 279.67) rotate(-74.81)"
+                      >
+                        C
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="translate(104.42 250.08) rotate(-68.28)"
+                      >
+                        L
+                      </text>
+                      <text
+                        class="cls-2"
+                        transform="matrix(0.47, -0.89, 0.89, 0.47, 112.68, 229.02)"
+                      >
+                        E
+                      </text>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="largeLabel">
+          <a id="title-container" href="#product-details-list">
+            <h1 id="title"><span>FLOWER</span></h1>
+          </a>
+        </div>
+      </section>
+
+      <!-- carousel data -->
+      <div id="carouselData" style="display: none;">
+        <div data-cat="Category one">
+          <ul class="swiper-slide">
+            <li data-url="none" data-targe="#product-details-list"></li>
+
+            <li data-thumbnail-path="none"></li>
+            <li
+              data-thumbnail-text=""
+              data-thumbnail-text-title-offset="10"
+              data-thumbnail-text-offset-top="100"
+              data-thumbnail-text-offset-bottom="0"
+            >
+              <a href="#product-details-list" class="click_to_scroll">
+                <h1 class="largeLabel flower"></h1>
+              </a>
+            </li>
+
+            <li data-html-content="">
+              <div class="flower">
+                <img
+                  style="width: 100%; height: auto;"
+                  src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f0627d4b136566104e78f4d/1594238934323/carousel-flower.png"
+                  alt="flower"
+                />
+              </div>
+            </li>
+          </ul>
+          <ul class="swiper-slide">
+            <li data-url="none"></li>
+            <li data-thumbnail-path="none"></li>
+            <li
+              data-thumbnail-text=""
+              data-thumbnail-text-title-offset="10"
+              data-thumbnail-text-offset-top="100"
+              data-thumbnail-text-offset-bottom="0"
+            >
+              <a href="#product-details-list" class="click_to_scroll">
+                <h1 class="largeLabel"></h1>
+              </a>
+            </li>
+            <li data-html-content="">
+              <div class="sauce">
+                <img
+                  style="width: 100%; height: auto;"
+                  src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f0627dfd5373813e8cc8a54/1594238945527/carousel-sauce.png"
+                  alt="sauce"
+                />
+              </div>
+            </li>
+          </ul>
+          <ul class="swiper-slide">
+            <li data-url="none"></li>
+            <li data-thumbnail-path="none"></li>
+            <li
+              data-thumbnail-text=""
+              data-thumbnail-text-title-offset="10"
+              data-thumbnail-text-offset-top="100"
+              data-thumbnail-text-offset-bottom="0"
+            >
+              <a href="#product-details-list" class="click_to_scroll">
+                <h1 class="largeLabel"></h1>
+              </a>
+            </li>
+            <li data-html-content="">
+              <div class="vape">
+                <br />
+                <img
+                  style="width: 100%; height: auto;"
+                  src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f0627e30b01c07d0f8ce25e/1594238956426/carousel-vape.png"
+                  alt="vape"
+                />
+              </div>
+            </li>
+          </ul>
+          <ul class="swiper-slide">
+            <li data-url="none"></li>
+            <li data-thumbnail-path="none"></li>
+            <li
+              data-thumbnail-text=""
+              data-thumbnail-text-title-offset="10"
+              data-thumbnail-text-offset-top="100"
+              data-thumbnail-text-offset-bottom="0"
+            >
+              <a href="#product-details-list" class="click_to_scroll">
+                <h1 class="largeLabel"></h1>
+              </a>
+            </li>
+            <li data-html-content="">
+              <div class="preroll">
+                <img
+                  style="width: 100%; height: auto;"
+                  src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f0627da31811d08f9c635b0/1594238940214/carousel-preroll.png"
+                  alt="preroll"
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- End carousel -->
+      <section id="product-details-list" class="grid">
+        <div class="mb-5 caret-container">
+          <a class="largeLabel" href="#main">
+            <i style="display: block;" class="largeLabel fa fa-angle-up"
+              ><br /><span>HOME</span>
+            </i>
+          </a>
+        </div>
+        <div id="flower">
+          <div class="container-fluid">
+            {# Basecamp FLower }
+            <div class="flower-content row">
+              <div class="col-4" style="text-align: center;">
+                <img
+                  class="swiper-image"
+                  src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f0b7da1aee1c9281a9ef2ae/1594588584061/flower-basecamp-green.png"
+                  alt="basecamp-flower-green"
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="swiper-image"
+                  src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f0b7dad2d6235002620648d/1594588595344/flower-basecamp-orange.png"
+                  alt="basecamp-flower-orange"
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="swiper-image"
+                  src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f0b7db745628c2a55349629/1594588605809/flower-basecamp-purple.png"
+                  alt="basecamp-flower-purple"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <h2 class="mt-2 col-12">
+                Basecamp Flower
+              </h2>
+            </div>
+            <div class="row">
+              <p class="col-12">
+                description of individual product
+              </p>
+              <p class="col-12">
+                of product line goes here
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <a class="mt-5 btn btn-sm btn-light ease-button" href="">
+                  <p class="buy-now-text">buy now on</p>
+                  <img
+                    src="https://images.squarespace-cdn.com/content/v1/5efb7392ba60b3456ca0e944/1593816834587-O8QUURB2MTUALIVIWNEL/ke17ZwdGBToddI8pDm48kG00qEkMrOolsaXqtthDuocUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcdLmSSQjkxgfcO76KLjQzJ8380l92OtSqpl8QOonGnyS8xRoTccknv16aMQ0lMdRA/eaze-logo.png?format=500w"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            {# Eclipse FLower }
+            <div class="flower-content row">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-4">
+                    <img
+                      class="swiper-image"
+                      src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f062a2e31811d08f9c6af93/1594239535566/flower-eclipse-green.png"
+                      alt="eclipse-flower-green"
+                    />
+                  </div>
+                  <div class="col-4">
+                    <img
+                      class="swiper-image"
+                      src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f062a336683b83fe14d4a3b/1594239540165/flower-eclipse-orange.png"
+                      alt="eclipse-flower-orange"
+                    />
+                  </div>
+                  <div class="col-4">
+                    <img
+                      class="swiper-image"
+                      src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f062a3763acba0ecce606bb/1594239544651/flower-eclipse-purple.png"
+                      alt="eclipse-flower-purple"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <h2 class="mt-2 col-12">
+                Eclipse Flower
+              </h2>
+            </div>
+            <div class="row">
+              <p class="col-12">
+                description of individual product
+              </p>
+              <p class="col-12">
+                of product line goes here
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <a class="mt-5 btn btn-sm btn-light ease-button" href="">
+                  <p class="buy-now-text">buy now on</p>
+                  <img
+                    src="https://images.squarespace-cdn.com/content/v1/5efb7392ba60b3456ca0e944/1593816834587-O8QUURB2MTUALIVIWNEL/ke17ZwdGBToddI8pDm48kG00qEkMrOolsaXqtthDuocUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcdLmSSQjkxgfcO76KLjQzJ8380l92OtSqpl8QOonGnyS8xRoTccknv16aMQ0lMdRA/eaze-logo.png?format=500w"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            {# Galaxy Flower }
+            <div class="flower-content row">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-4">
+                    <img
+                      class="swiper-image"
+                      src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f062a3b4699a73e3c967746/1594239548257/flower-galaxy-green.png"
+                      alt="flower-galaxy-green"
+                    />
+                  </div>
+                  <div class="col-4">
+                    <img
+                      class="swiper-image"
+                      src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f062a400b01c07d0f8d6468/1594239553510/flower-galaxy-orange.png"
+                      alt="flower-galaxy-orange"
+                    />
+                  </div>
+                  <div class="col-4">
+                    <img
+                      class="swiper-image"
+                      src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f062a456683b83fe14d5154/1594239557784/flower-galaxy-purple.png"
+                      alt="flower-galaxy-purple"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <h2 class="mt-2 col-12">
+                Galaxy Flower
+              </h2>
+            </div>
+            <div class="row">
+              <p class="col-12">
+                description of individual product
+              </p>
+              <p class="col-12">
+                of product line goes here
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <a class="mt-5 btn btn-sm btn-light ease-button" href="">
+                  <p class="buy-now-text">buy now on</p>
+                  <img
+                    src="https://images.squarespace-cdn.com/content/v1/5efb7392ba60b3456ca0e944/1593816834587-O8QUURB2MTUALIVIWNEL/ke17ZwdGBToddI8pDm48kG00qEkMrOolsaXqtthDuocUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcdLmSSQjkxgfcO76KLjQzJ8380l92OtSqpl8QOonGnyS8xRoTccknv16aMQ0lMdRA/eaze-logo.png?format=500w"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="sauce">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-4">
+                <img
+                  class="swiper-image"
+                  src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f062a7154b02120ab2098aa/1594239603015/sauce-green.png"
+                  alt="sauce-green"
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="swiper-image"
+                  src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f062a75f21dd43ad6a4601e/1594239606833/sauce-orange.png"
+                  alt="sauce-orange"
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="swiper-image"
+                  src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f062a79f1d20d407d2a853c/1594239610734/sauce-purple.png"
+                  alt="sauce-purple"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <h2 class="mt-5 col-12">
+                Sauces
+              </h2>
+            </div>
+            <div class="row">
+              <p class="col-12">
+                description of individual product
+              </p>
+              <p class="col-12">
+                of product line goes here
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <a class="mt-5 btn btn-sm btn-light ease-button" href="">
+                  <p class="buy-now-text">buy now on</p>
+                  <img
+                    src="https://images.squarespace-cdn.com/content/v1/5efb7392ba60b3456ca0e944/1593816834587-O8QUURB2MTUALIVIWNEL/ke17ZwdGBToddI8pDm48kG00qEkMrOolsaXqtthDuocUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcdLmSSQjkxgfcO76KLjQzJ8380l92OtSqpl8QOonGnyS8xRoTccknv16aMQ0lMdRA/eaze-logo.png?format=500w"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="vape">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-4">
+                <img
+                  class="swiper-image"
+                  src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f0b7e0b2d623500262072e8/1594588689482/vape-green.png"
+                  alt="vape-green"
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="swiper-image"
+                  src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f0b7e16b197041778c63dcc/1594588701103/vape-orange.png"
+                  alt="vape-orange"
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="swiper-image"
+                  src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f0b7e2360bdf3313352e62a/1594588712826/vape-purple.png"
+                  alt="vape-purple"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <h2 class="mt-5 col-12">
+                VAPE
+              </h2>
+            </div>
+            <div class="row">
+              <p class="col-12">
+                description of individual product
+              </p>
+              <p class="col-12">
+                of product line goes here
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <a class="mt-5 btn btn-sm btn-light ease-button" href="">
+                  <p class="buy-now-text">buy now on</p>
+                  <img
+                    src="https://images.squarespace-cdn.com/content/v1/5efb7392ba60b3456ca0e944/1593816834587-O8QUURB2MTUALIVIWNEL/ke17ZwdGBToddI8pDm48kG00qEkMrOolsaXqtthDuocUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcdLmSSQjkxgfcO76KLjQzJ8380l92OtSqpl8QOonGnyS8xRoTccknv16aMQ0lMdRA/eaze-logo.png?format=500w"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="preroll">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-4">
+                <img
+                  class="swiper-image"
+                  src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f062a4d38854501f8afd356/1594239565960/preroll-green.png"
+                  alt="preroll-green"
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="swiper-image"
+                  src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f062a517048fe240c86726d/1594239570685/preroll-orange.png"
+                  alt="preroll-orange"
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="swiper-image"
+                  src="https://static1.squarespace.com/static/5efb7392ba60b3456ca0e944/t/5f062a5612b21d0352fe5aaa/1594239574466/preroll-purple.png"
+                  alt="preroll-purple"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <h2 class="mt-5 col-12">
+                Preroll
+              </h2>
+            </div>
+            <div class="row">
+              <p class="col-12">
+                description of individual product
+              </p>
+              <p class="col-12">
+                of product line goes here
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <a class="mt-5 btn btn-sm btn-light ease-button" href="">
+                  <p class="buy-now-text">buy now on</p>
+                  <img
+                    src="https://images.squarespace-cdn.com/content/v1/5efb7392ba60b3456ca0e944/1593816834587-O8QUURB2MTUALIVIWNEL/ke17ZwdGBToddI8pDm48kG00qEkMrOolsaXqtthDuocUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcdLmSSQjkxgfcO76KLjQzJ8380l92OtSqpl8QOonGnyS8xRoTccknv16aMQ0lMdRA/eaze-logo.png?format=500w"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Footer with open block field -->
+    <div id="footer">
+      <footer class="site-footer container-fluid">
+        <squarespace:block-field id="footerBlocks" class="p-5" columns="8" />
+        <!--End Footer with open block field -->
+      </footer>
+    </div>
+  </body>
+</html>
